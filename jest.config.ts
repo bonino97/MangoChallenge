@@ -26,7 +26,6 @@ const config = {
   // A map from regular expressions to paths to transformers
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
-    '^.+\\.jsx?$': 'babel-jest', // Añade esto si también tienes archivos JS/JSX
   },
 };
 
